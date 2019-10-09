@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Hackathon Demo App.exe" version="1.0.0.2" publicKeyToken="63196d965344feb3" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Hackathon Demo App" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Hackathon Demo App.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Hackathon Demo App.exe" size="48080">
+      <assemblyIdentity name="Hackathon Demo App" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>DOpY5s+YfaeuVNFv43b+X9UeMobH5KZL7/yyxQqYNpc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Hackathon Demo App.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OMhRAh4uut4hrVhzGjwgfkCZyMb10W7LhRCv0rQ5cBo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-BHM74HPS\HP" issuerKeyHash="ab9ca73e7f1e336640ec704062a27b28c4846a43" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1wg7x74T8rJLiJH4QVmnGhAfXCYysH5bgM0Losy06as=</DigestValue></Reference></SignedInfo><SignatureValue>UnUGaLg7gHpYwV5TG8L0K78YzhCZZWxC6SCzAfW7jgMeMyIbKBQpx1m0hfPiT7MzKbotE4H7mhU3ALLHU5iUHOylkSQxtMpNxio4MYnX1BAc/Kh9orxkgbtqZ2DkXHDGP4cPC6SeGHBw0WGWUGFIUHEBiWlfUMwF6Uu6bB0pGsc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5TzFVlBGdOg7v0S5vK8bQtwFX/bgxpWSMsHoae/bHf69NaPLKK8tajXVHbXujYKXmm5OaUnWwnoyjCuMYE9iZA/U7+46qiXp17KaMPzz/SO8MRzg9ziJTJOxNss5JT3Nhr1dzEMqrFLqWFGmIJyGpxLyfbr3CFg5IZmafC8fIBk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="abe9b4cca20bcd805b7eb032265c1f101aa75941f891884bb2f213bec73b08d7" Description="" Url=""><as:assemblyIdentity name="Hackathon Demo App.exe" version="1.0.0.2" publicKeyToken="63196d965344feb3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-BHM74HPS\HP</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GXzm/JQqxl4jiF3Xgu6Y+cwozTSWOE25khOTaNyaubw=</DigestValue></Reference></SignedInfo><SignatureValue>ZdkYjvHrfZ0K5aq77YIK8vX+2mgd5Bbn4W7mjqQetCGNS9EnGECFg2g0ZWxfF53BlUQKkAGah3UOAEPOO+4+G08yeTYHiUTcw3gB4/FfkYvjZzz2j05bpyxxCF6C6xR1xo7pc9D183DKwAXeaZthcaqxI09BqInEJElS6zTNGUE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5TzFVlBGdOg7v0S5vK8bQtwFX/bgxpWSMsHoae/bHf69NaPLKK8tajXVHbXujYKXmm5OaUnWwnoyjCuMYE9iZA/U7+46qiXp17KaMPzz/SO8MRzg9ziJTJOxNss5JT3Nhr1dzEMqrFLqWFGmIJyGpxLyfbr3CFg5IZmafC8fIBk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQIa4NaMIpBJpMAs4fEiY4TTANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQATABBAFAAVABPAFAALQBCAEgATQA3ADQASABQAFMAXABIAFAwHhcNMTkxMDA1MDk0NDM0WhcNMjAxMDA0MTU0NDM0WjAvMS0wKwYDVQQDHiQATABBAFAAVABPAFAALQBCAEgATQA3ADQASABQAFMAXABIAFAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOU8xVZQRnToO79EubyvG0LcBV/24MaVkjLB6Gnv2x3+vTWjyyivLWo11R217o2Cl5puTmlJ1sJ6MowrjGBPYmQP1O/uOqol6deymjD88/0jvDEc4Pc4iUyTsTbLOSU9zYa9XcxDKqxS6lhRpiCchqcS8n269whYOSGZmnwvHyAZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAR6gmH8Itfm2QPnH91yHhQLhuOTRkCtKT+UNxiwxRtXvpe295BwxX8IjSxPnZCDtiXlJI65rITvSQ9yjugUGvys7Qi8euVMtw6FwDistxhtIlG5oNvuiBkk38FP5o7SloTdU9PBj8RMZAhkF3jnGyKbWCgCwXoEfe32YGC2pzBDM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
